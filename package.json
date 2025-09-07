@@ -4,9 +4,9 @@
   "description": "Projeto simples para aulas de CI-CD",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --browser chrome", 
-    "report": "npx allure serve --clean allure-results", 
-    "report:generate" : "npx allure generate --clean allure-results --output allure-report"
+    "test": "npx cypress run --browser chrome",
+    "report": "npx allure serve --clean allure-results",
+    "report:generate": "npx allure generate --clean allure-results --output allure-report"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/EBAC-QE/ci-cd-teste-exemplo#readme",
   "dependencies": {
+    "allure-commandline": "^2.34.1",
     "cypress": "^14.5.4"
   },
   "devDependencies": {
